@@ -1,0 +1,284 @@
+@import "./config";
+.vux-popup-picker-placeholder {
+    font-size: p2r(14);
+    color: #999;
+    margin-right: p2r(10);
+}
+
+.weui-label {
+    color: #666;
+    font-size: p2r(16);
+}
+
+.weui-cell {
+    padding: p2r(14) p2r(10);
+}
+
+.yee-pay {
+    .weui-cell {
+        line-height: p2r(24);
+    }
+}
+
+.vux-confirm {
+    .weui-dialog__ft {
+        height: 48px;
+        width: 100%;
+        display: block !important;
+    }
+    .weui-dialog__btn {
+        width: 50%;
+        float: left;
+    }
+}
+
+.weui-dialog__btn_primary {
+    color: $main-color !important;
+}
+
+.vux-loading-no-text .weui-toast {
+    height: 60px !important;
+    width: 60px !important;
+    min-height: 60px !important;
+    margin: 0 0 0 -30px !important;
+    padding: 11px 0 0 0 !important;
+}
+
+.weui-icon_toast.weui-loading {
+    margin: 0 !important;
+}
+
+.vux-popup-picker-value {
+    color: #666;
+    font-size: p2r(14);
+}
+
+input:disabled {
+    color: #333 !important;
+}
+
+.picker {
+    position: relative;
+}
+
+.weui-cell_access {
+    position: relative;
+    padding: 0.7rem p2r(32) 0.7rem 0.8rem;
+    width: 100%;
+    .weui-cell__hd {
+        width: p2r(120);
+        position: absolute;
+        left: p2r(16);
+        top: p2r(14);
+    }
+    .weui-cell__ft {
+        position: absolute;
+        right: p2r(6);
+        top: p2r(16);
+        width: p2r(13);
+        text-align: right;
+        color: #e4e4e4;
+        padding-right: 13px;
+        font-family: "iconfont" !important;
+        font-size: 13px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: p2r(26);
+        text-align: center;
+        &:before {
+            content: "\e618";
+        }
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.spread_list {
+    .weui-cell_access {
+        .vux-popup-picker-select-box {
+            .vux-popup-picker-select {
+                line-height: 34px;
+                text-align: center !important;
+            }
+        }
+        .weui-cell__ft {
+            right: p2r(-3);
+            top: p2r(7);
+            font-size: 10px;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+        }
+        .weui-cell__hd {
+            width: p2r(120);
+            position: absolute;
+            left: p2r(16);
+            top: p2r(14);
+        }
+    }
+}
+
+.change_rate {
+    .list {
+        .weui-label {
+            color: #b2b2b2;
+            font-size: p2r(14);
+            line-height: p2r(26);
+        }
+        .vux-popup-picker-select {
+            line-height: p2r(26);
+        }
+    }
+    .weui-cell_access {
+        .vux-cell-value {
+            color: $main-color;
+            line-height: p2r(26);
+        }
+        .vux-cell-placeholder {
+            color: $main-color;
+            line-height: p2r(26);
+            margin-right: 0;
+        }
+    }
+}
+
+.vux-popup-header-right {
+    color: $main-color !important;
+}
+
+.gt_holder.gt_popup .gt_popup_wrap {
+    margin-top: 0 !important;
+    top: 50px !important;
+}
+
+.head_picker {
+    .weui-cell_access {
+        padding: 0;
+    }
+}
+
+// 分享
+.share-index {
+    .spread {
+        input {
+            color: #636363 !important;
+            -webkit-text-fill-color: #636363 !important;
+            opacity: 1;
+        }
+    }
+    .form_input_box {
+        padding: 0 !important;
+        .txt {
+            font-size: p2r(12) !important;
+            color: #fff !important;
+            line-height: p2r(26) !important;
+            min-height: p2r(26) !important;
+        }
+        .warn {
+            color: #ff6952 !important;
+        }
+        input {
+            height: p2r(44);
+            line-height: p2r(44);
+            padding: 0 p2r(5);
+            border-radius: p2r(3);
+        }
+        input:disabled {
+            background: #d1d1d1 !important;
+        }
+        &:after {
+            display: none;
+        }
+    }
+    .count_down {
+        .count_btn {
+            background: #634bb3 !important;
+            height: p2r(44) !important;
+            line-height: p2r(44) !important;
+            border-radius: p2r(24) !important;
+        }
+        .disabled {
+            color: #9a9a9a !important;
+            border: solid 1px #9a9a9a !important;
+        }
+        .enable {
+            color: #fff !important;
+            border: solid 1px #fff !important;
+        }
+    }
+    .form__submit {
+        border-radius: p2r(60) !important;
+    }
+    .check_read {
+        padding: p2r(15) 1.2rem !important;
+        .text {
+            color: #fff !important;
+        }
+        .icon-gou {
+            text-align: center;
+            line-height: p2r(16);
+            font-size: p2r(12);
+            width: p2r(16);
+            height: p2r(16);
+            margin-top: p2r(4);
+            background: #fff;
+        }
+    }
+    .check {
+        .icon-gou {
+            color: #f87829;
+        }
+    }
+    .uncheck {
+        .icon-gou {
+            color: #fff;
+        }
+    }
+    .submit {
+        .form__submit {
+            height: p2r(45) !important;
+            line-height: p2r(45) !important;
+        }
+        .disabled {
+            background: #d1d1d1 !important;
+        }
+    }
+}
+
+// 平台自己支付弹窗
+.pay_dialog {
+    .count_down {
+        min-width: 23%!important;
+        padding-right:0!important;
+        button{
+            border-radius: p2r(6)!important;
+            font-size: p2r(12)!important;
+        }
+        .enable {
+            border: 1px solid #0bb20c!important;
+            color: #0bb20c!important;
+        }
+    }
+    .submit{
+        .enable{
+            background: #22ad3a !important;
+        }
+    }
+}
+
+// 弹窗没按钮
+.no_btn{
+    .weui-dialog__ft{
+        height: 18px!important;
+        &:after{
+            display: none!important;
+        }
+        a{
+            display: none!important;
+        }
+    }
+    .weui-mask{
+        bottom: 2.5rem;
+    }
+}

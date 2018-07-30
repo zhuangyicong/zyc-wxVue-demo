@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="身份证.正面" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="256px" height="155px" viewBox="0 0 256 155" enable-background="new 0 0 256 155" xml:space="preserve">
+<path fill="#F6F6F6" d="M255,138.424c0,8.603-6.974,15.576-15.575,15.576H16.575C7.973,154,1,147.026,1,138.424V16.576
+	C1,7.974,7.973,1,16.575,1h222.85C248.026,1,255,7.974,255,16.576V138.424z"/>
+<g>
+	<rect x="26" y="40" fill="#E7E7E7" width="102" height="8"/>
+	<rect x="26" y="61" fill="#E7E7E7" width="102" height="9"/>
+	<rect x="26" y="88" fill="#E7E7E7" width="102" height="8"/>
+	<rect x="26" y="127" fill="#E7E7E7" width="207" height="9"/>
+	<path fill="#E7E7E7" d="M183.338,68.19c2.846,1.722-1.348,5.463-1.348,5.463C158.402,84.212,160.349,106,160.349,106h69.491
+		c-2.022-26-23.963-34.977-23.963-34.977s-0.738-2.292,0-2.947c13.929-12.355,13.629-46.22-10.184-46.22
+		C164.243,21.856,174.352,68.19,183.338,68.19z"/>
+</g>
+</svg>
