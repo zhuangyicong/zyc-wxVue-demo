@@ -112,10 +112,6 @@ export default {
         val(val) {
             this.validate(val);
         }
-        // ,
-        // value(val){
-        //     if(val) this.val = val;
-        // }
     }
 };
 </script>
