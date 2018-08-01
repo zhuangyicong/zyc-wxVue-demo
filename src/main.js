@@ -21,15 +21,10 @@ Vue.use(AlertPlugin);
 Vue.use(ConfirmPlugin);
 Vue.use(LoadingPlugin)
 
-// 路由跳转
-Vue.prototype.$goRoute = function (index) {
-    this.$router.push(index)
-}
 // title
 router.afterEach((transition) => {
     let title = transition.meta.title;
     document.setTitle(title);
-    // store.commit('SET_GOURL', {curUrl: document.URL})
 })
 
 /* eslint-disable no-new */

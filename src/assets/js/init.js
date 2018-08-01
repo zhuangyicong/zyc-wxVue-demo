@@ -9,6 +9,7 @@
     if (!doc.addEventListener) return;
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
+    // 设置tit
     document.body.addEventListener('touchstart', function () { });
     document.setTitle = function (title) {
         if (!title) return;
