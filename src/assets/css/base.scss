@@ -28,39 +28,38 @@ input,
 select,
 figure,
 figcaption {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    font-style: normal;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-    font-family: sans-serif, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Arial;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-font-smoothing: antialiased;
-    &:focus {
-        outline: none;
-    }
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-style: normal;
+	text-decoration: none;
+	border: none;
+	box-sizing: border-box;
+	font-family: sans-serif, Microsoft YaHei, \\5fae\8f6f\96c5\9ed1, Arial;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+	&:focus {
+		outline: none;
+	}
 }
 
 body,
 html {
-    background: #f3f3f3;
-    line-height: normal;
+	line-height: normal;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    appearance: none;
-    margin: 0;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
 }
 
 #app {
-    position: relative;
-    min-height: 100vh;
+	position: relative;
+	min-height: 100vh;
 }
 
 .clear {
-    clear: both;
+	clear: both;
 }
