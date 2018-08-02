@@ -17,21 +17,7 @@ export default {
             showLoading: true
         };
     },
-    created() {
-        let { code, state } = parseURL(location.href).params;
-        let token = this.$getStorage("token");
-
-        if (token) {
-            this.SET_TOKEN({ token: token });
-            this.loading();
-        } else if (code && state) {
-            this.SET_AUTHORIZE_CODE(code);
-            this.SET_AUTHORIZE_STATE(state);
-            this.login(code);
-        } else {
-            this.getAuthorize();
-        }
-    },
+    created() {},
     computed: {
         ...mapState({})
     },

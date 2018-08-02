@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import store from './store'
 import './assets/js/init'
-import install from './utils/install'
+// import lxb from 'lxb-base'
 import { AlertPlugin, ConfirmPlugin, LoadingPlugin } from 'vux'
 import FastClick from 'fastclick'
 
@@ -16,7 +16,7 @@ if ('addEventListener' in document) {
 }
 
 Vue.config.productionTip = false;
-Vue.use(install);
+// Vue.use(lxb);
 Vue.use(AlertPlugin);
 Vue.use(ConfirmPlugin);
 Vue.use(LoadingPlugin)
