@@ -43,20 +43,24 @@ figcaption {
     }
 }
 
-body, html{
+body,
+html {
     background: #f3f3f3;
     line-height: normal;
 }
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none; 
-    appearance: none; 
-    margin: 0; 
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
 }
-#app{
+
+#app {
     position: relative;
     min-height: 100vh;
 }
-.clear{
-    clear:both;
+
+.clear {
+    clear: both;
 }

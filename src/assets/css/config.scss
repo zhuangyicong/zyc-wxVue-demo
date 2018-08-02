@@ -3,17 +3,12 @@ $main-color: #ff642e;
 $second-color: #c8c8c8;
 $back-color:#f3f3f3;
 $link-color: #5986e2;
-
-
-$fc-1: #333;  // 字主颜色
-$fc-2: #999;  // 字次颜色
-$fc-3: #f53838;  // 字提示颜色
-
+$fc-1: #333; // 字主颜色
+$fc-2: #999; // 字次颜色
+$fc-3: #f53838; // 字提示颜色
 $border-color: #d8d8d8;
 $border-size: 1px;
-
 $keyboard-border: #dfdfdf;
-
 @function p2r($px) {
     @return $px / $baseFontSize * 1rem;
 }
